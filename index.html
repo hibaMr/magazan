@@ -3,17 +3,241 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>travel</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- menu -->
-    <ul class="ul-menu-1">
-        <li class="home"><a href="#homme" >home</a></li>
-        <li class="femme"><a href="#femme">femme</a></li>
-        <li class="homme"><a href="#homme">homme</a></li>
-        <li class="enfent"><a href="#enfent">enfent</a></li>
-    </ul>
-    
+    <header>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+        <nav class="menu">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#gallery">gallery</a>
+            <a href="#services">services</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <!-- <from class="from-contuner">
+            <input type="search" id="search-bar" placeholder="shearch here...">
+            <label for="search-bar"></label>
+        </from> -->
+    </header>
+
+
+
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="div-home-1">
+            <h3 class="h3-home">adventure is worthwhile</h3>
+            <p class="p-home">dicover new places with us, adventure awaites</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+        <div class="div-video">
+            <video src="image/home.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+    <!-- book -->
+    <section class="book" id="book">
+        <h1 class="h1-book">
+            <span class="span-1">b</span>
+            <span class="span-2">o</span>
+            <span class="span-3">o</span>
+            <span class="span-4">k</span>
+            <span class="space"></span>
+            <span class="span-5">n</span>
+            <span class="span-6">o</span>
+            <span class="span-7">w</span>
+        </h1>
+        <div class="div-book-1">
+            <div class="image">
+                <img src="image/Trip-pana.svg" alt="non">
+            </div>
+            <form action="">
+                <div class="input-box">
+                    <h3 class="h3-box">where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="input-box">
+                    <h3 class="h3-box">how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="input-box">
+                    <h3 class="h3-box">arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="input-box">
+                    <h3 class="h3-box">leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn-1" value="book now">
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- packages -->
+    <section class="packages" id="packages">
+        <h1 class="h1-book">
+            <span class="span-1">p</span>
+            <span class="span-2">a</span>
+            <span class="span-3">c</span>
+            <span class="span-4">k</span>
+            <span class="span-5">a</span>
+            <span class="span-6">g</span>
+            <span class="span-7">e</span>
+            <span class="span-7">s</span>
+        </h1>
+        <div class="contuner-packages">
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-1.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages"><a href="#" class="icons"><box-icon name='location-plus' color='#ea9332' ></box-icon></a>fes</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div><br>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-2.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">marrakesh</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-3.jpeg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">chefchaouen</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div><div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-4.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">tangier</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-5.webp" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">assila</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-6.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">agadir</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-7.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">ovens</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-8.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">beni mellal</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-9.jpeg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">rabat</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-10.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">safi</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div><div class="div-packages">
+                <div class="box-packages">
+                    <img src="image/img-11.jpg" alt="non">
+                    <div class="enf-packages-1">
+                        <h3 class="h3-packages">essaouira</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class="ent-packages-2">$90.00 <span>$120.00</span></div>
+                        <a href="#" class="btn-2">book now</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+     <!-- footer -->
+     <div class="footer">
+        <footer>
+            <div class="contuner-footer-1">
+                <h3 class="div-footer-1 div-footer">Address</h3>
+                <p class="p-footer">A108 Adam Street</p> 
+                <p class="p-footer">New York, NY 535022 - US</p>
+            </div>
+            <div class="contuner-footer-2">
+                <h3 class="div-footer-2 div-footer">Reservations</h3>
+                <p class="p-footer">Phone: +1 5589 55488 55</p>
+                <p class="p-footer">Email: info@example.com</p>
+            </div>
+            <div class="contuner-footer-3">
+                <h3 class="div-footer-2 div-footer">Opening Hours</h3>
+                <p class="p-footer">Mon-Sat: 11AM - 23PM</p>
+                <p class="p-footer">Sunday: Closed</p>
+            </div>
+        </footer><hr>
+        <div class="contuner-footer-4">
+            <p class="p-footer p-footer-1">© Copyright Yummy. All Rights Reserved</p>
+            <p class="p-footer p-footer-1">Designed by Magazan</p>
+        </div>
+    </div>
 </body>
 </html>

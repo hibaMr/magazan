@@ -1,3 +1,339 @@
-.ul-menu-1{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 9%;
+}
+header .logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+header .logo span{
+    color: burlywood;
+}
+.menu a{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 20px;
+}
+.menu a:hover{
+    color: burlywood;
+}
+
+
+/* home */
+section{
+    padding: 2rem 9%;
+}
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(243, 161, 53);
+    color: aliceblue;
+    padding: 15px 20px;
+    border: 2px solid rgb(243, 161, 53);
+    font-size: 20px;
+    border-radius: 20px;
+}
+.btn:hover{
+    letter-spacing: 5px;
+    transition: 0.6s;
+    background-color: rgba(243, 161, 53, 0);
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
     
 }
+.home .div-home-1{
+    text-align: center;
+
+}
+.home .div-home-1 .h3-home{
+    font-size: 50px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 30px 50px rgda(0,0,0,1);
+}
+.home .div-home-1 .p-home{
+    font-size: 30px;
+    color: white;
+    padding: 20px 0;
+}
+.home .div-video video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+/* book */
+.h1-book{
+    text-align: center;
+    padding: 30px 0;
+}
+.h1-book span{
+    font-size: 30px;
+    background-color: rgba(243, 161, 53, 0.498);
+    color: rgb(243, 161, 53);
+    border-radius: 10px;
+    padding: 10px 10px;
+    display: inline-block;
+}
+.space{
+    background: none;
+}
+/* .span-1{
+    animation-name: span1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes span1{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+}
+.span-2{
+    animation-name: span2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes span2{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+}
+.span-3{
+    animation-name: span3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes span3{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+}
+.span-4{
+    animation-name: span4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes span4{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+}
+.span-5{
+    animation-name: span5;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes span5{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+}
+.span-6{
+    animation-name: span6;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes span6{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+}
+.span-7{
+    animation-name: span7;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes span7{
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-5);
+    }
+} */
+
+.book .div-book-1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+.book .div-book-1 .image{
+    flex: 1 1 100px;
+}
+.book .div-book-1 img{
+    width: 100%;
+}
+.book .div-book-1 form{
+    flex: 1 1 100px;
+    padding: 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.1);
+    border-radius: 10px;
+}
+.book .div-book-1 form .input-box{
+    padding: 5px 0;
+}
+.book .div-book-1 form .input-box input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid black;
+    font-size: 15px;
+    color: #333;
+    text-transform: none;
+}
+.book .div-book-1 form .input-box h3{
+    font-size: 25px;
+    padding: 10px 0;
+    color: #3a3838;
+}
+.book .btn-1{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(243, 161, 53);
+    color: aliceblue;
+    padding: 15px 20px;
+    border: 2px solid rgb(243, 161, 53);
+    font-size: 20px;
+    border-radius: 20px;
+}
+.book .btn-1:hover{
+    box-shadow: 10px 10px 10px gray;
+    transform: scale(1.1);
+}
+
+
+
+/* packages */
+.contuner-packages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.packages .div-packages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    width: 330px;
+}
+.packages .div-packages .box-packages{
+    flex: 1 1 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 10px 10px rgb(148, 146, 146);
+}
+.packages .div-packages .box-packages img{
+    height: 300px;
+    width: 100%;
+}
+.btn-2{
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(243, 161, 53);
+    color: aliceblue;
+    padding: 10px 20px;
+    border: 2px solid rgb(243, 161, 53);
+    font-size: 20px;
+    border-radius: 5px;
+}
+.packages .div-packages .box-packages .enf-packages-1{
+    padding: 20px;
+}
+.packages .div-packages .box-packages .enf-packages-1 h3{
+    font-size: 30px;
+    color: #333;
+}
+.packages .div-packages .box-packages .enf-packages-1 p{
+    font-size: 20px;
+    color: #666;
+    padding: 10px 0;
+}
+.icons{
+    width: 5px;
+}
+
+
+
+/* footer */
+.footer{
+    background-color: rgb(19, 18, 18);
+    padding: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+}
+.div-footer{
+    color: white;
+    
+}
+.p-footer{
+    color: rgb(183, 176, 176);
+}
+.contuner-footer-4{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p-footer-1{
+    gap: 30px;
+}
+hr{
+    width: 1100px;
+}
+
